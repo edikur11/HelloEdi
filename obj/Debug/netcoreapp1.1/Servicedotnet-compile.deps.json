@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1/",
-    "signature": "fa3c3b430aaeca5ca3c1154538496c8987a9ba20"
+    "signature": "0763e9239b3ace7585ffdfdf0c0502ccdfb0f81a"
   },
   "compilationOptions": {
     "defines": [
@@ -28,7 +28,8 @@
           "Microsoft.Extensions.Logging": "1.1.0",
           "Microsoft.Extensions.Logging.Console": "1.1.0",
           "Microsoft.Extensions.Logging.Debug": "1.1.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.0"
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.0",
+          "System.Net.Http": "4.3.1"
         },
         "compile": {
           "Service.dll": {}
@@ -1040,7 +1041,7 @@
           "System.IO.FileSystem.Primitives": "4.3.0",
           "System.Linq": "4.3.0",
           "System.Linq.Expressions": "4.3.0",
-          "System.Net.Http": "4.3.0",
+          "System.Net.Http": "4.3.1",
           "System.Net.Primitives": "4.3.0",
           "System.Net.Sockets": "4.3.0",
           "System.ObjectModel": "4.3.0",
@@ -1664,7 +1665,7 @@
           "ref/netstandard1.0/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "System.Collections": "4.3.0",
@@ -1737,7 +1738,7 @@
           "System.Diagnostics.Tracing": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
-          "System.Net.Http": "4.3.0",
+          "System.Net.Http": "4.3.1",
           "System.Net.Primitives": "4.3.0",
           "System.Net.WebHeaderCollection": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
@@ -2497,7 +2498,8 @@
           "Microsoft.Extensions.Logging": "1.1.0",
           "Microsoft.Extensions.Logging.Console": "1.1.0",
           "Microsoft.Extensions.Logging.Debug": "1.1.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.0"
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.0",
+          "System.Net.Http": "4.3.1"
         },
         "runtime": {
           "Service.dll": {}
@@ -3500,7 +3502,7 @@
           "System.IO.FileSystem.Primitives": "4.3.0",
           "System.Linq": "4.3.0",
           "System.Linq.Expressions": "4.3.0",
-          "System.Net.Http": "4.3.0",
+          "System.Net.Http": "4.3.1",
           "System.Net.Primitives": "4.3.0",
           "System.Net.Sockets": "4.3.0",
           "System.ObjectModel": "4.3.0",
@@ -4076,7 +4078,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "System.Collections": "4.3.0",
@@ -4140,7 +4142,7 @@
           "System.Diagnostics.Tracing": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
-          "System.Net.Http": "4.3.0",
+          "System.Net.Http": "4.3.1",
           "System.Net.Primitives": "4.3.0",
           "System.Net.WebHeaderCollection": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
@@ -5562,10 +5564,10 @@
       "serviceable": true,
       "sha512": "sha512-CAivBTxLHKKb9LdUxtFhmcU1UfSygzwHAvIyTJ+P1NoBUFEwkLGlyPxGNEAU3D2F0halIkd2+7Qr4mlh62Wggg=="
     },
-    "System.Net.Http/4.3.0": {
+    "System.Net.Http/4.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-f7Mv8rca/NxNaopLu8f4vb44+pxdrq9tXiVImccTb2oMVphvwmLgxOhy/9eWEKGtl343cMBAyNLjZxdI8yx19g=="
+      "sha512": "sha512-UrTyRczM3ZvNk6oetBuwlu67MFKKRva+r7bw4JDVZ6Y2IukyZ24td5ppsieu/4yZlogVAIuZul9GIQ3hoiz0yA=="
     },
     "System.Net.NameResolution/4.3.0": {
       "type": "package",
