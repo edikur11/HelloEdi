@@ -4,30 +4,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
+using servicehttpclient.model;
 
 namespace Service.Controllers
 {
     [Route("api/edi/[controller]")]
     public class HelloController : Controller
     {
-        static string _address = "http://139.59.248.207:5501/api/selly/hello";
+        httpclientmodel client = new httpclientmodel();
+        string _address= "http://188.166.236.181/api/selly/hello";
 
         // GET api/values
         [HttpGet]
         public async Task<IEnumerable<string>> Get()
         {
-            var result = await GetExternalResponse();
+            var result = await client.GetProductAsync(_address);
 
             return new string[] { "Hello Edi", result };
-        }
-
-        private async Task<string> GetExternalResponse()
-        {
-            var client = new HttpClient();
-            HttpResponseMessage response = await client.GetAsync(_address);
-            response.EnsureSuccessStatusCode();
-            var result = await response.Content.ReadAsStringAsync();
-            return result;
         }
 
         // GET api/values/5
