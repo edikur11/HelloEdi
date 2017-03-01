@@ -13,7 +13,7 @@ namespace servicehttpclient.model
             HttpClient client = new HttpClient();
             
             string Hello = "";
-            client.BaseAddress = new Uri("http://172.18.0.6:5001/");
+            client.BaseAddress = new Uri("http://172.18.0.6:5000/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
