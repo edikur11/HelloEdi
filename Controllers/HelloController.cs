@@ -12,7 +12,7 @@ namespace Service.Controllers
     public class HelloController : Controller
     {
         httpclientmodel client = new httpclientmodel();
-        string _address= "http://172.18.0.6:5001/api/selly/hello";
+        string _address= "api/selly/hello";
 
         // GET api/values
         [HttpGet]
